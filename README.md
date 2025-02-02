@@ -13,16 +13,28 @@ g++ -O3 haas.cpp -o haas
 Running code
 -------
 
-To run the code for corresponding algorithms, execute the following command on linux:
+Before running the deterministic approach, please first compile the main_probe_order.cpp using the following command
+```sh
+g++ -O3 main_probe_order.cpp -o probe_order
+```
+and generate sorted list of edges in the data graph according to certain preorder heuristics
+```sh
+./probe_order dataset heuristic
+```
+
 
 ```sh
 ./deterministic dataset heuristic
 ```
 
-```sh
-./aas dataset epsilon p0
-```
+Parameter "dataset" is the name of the raw data graph; 
+Parameter "heuristic" is the preorder heuristic employed in the deterministic approach. 
+Six different heuristics are implemented in the current version: degree, triangle, core, truss, ld, soe.
 
 ```sh
+./aas dataset epsilon p0
 ./haas dataset epsilon p0
 ```
+Parameter "dataset" is the name of the raw data graph; 
+Parameter "epsilon" is the required approximation ratio;
+Parameter "p0" is the initial sampling probability.

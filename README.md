@@ -16,5 +16,13 @@ Running code
 To run the code for corresponding algorithms, execute the following command on linux:
 
 ```sh
-./deterministic dataset 
+./deterministic dataset heuristic
+```
+
+```sh
+./aas dataset epsilon p0
+```
+
+```sh
+./haas dataset epsilon p0
 ```

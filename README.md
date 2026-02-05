@@ -1,8 +1,8 @@
-# LLM-curated Graph for Densest Subgraph Discovery
+# Efficient Oracle-Oriented Densest Subgraph Discovery
 
 Preparation
 -------
-First, compile the code for LLM-curated-Graph-DSD by executing the following three commands on linux, corresponding to the deterministic approach, AAS algorithm and HAAS algorithm respectively:
+First, compile the code by executing the following three commands on linux, corresponding to the deterministic approach, AAS algorithm and HAAS algorithm respectively:
 
 ```sh
 g++ -O3 deterministic.cpp -o deterministic

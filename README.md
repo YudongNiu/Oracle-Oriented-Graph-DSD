@@ -1,4 +1,4 @@
-# Efficient Oracle-Oriented Densest Subgraph Discovery
+# Oracle-Oriented Densest Subgraph Discovery
 
 Preparation
 -------
